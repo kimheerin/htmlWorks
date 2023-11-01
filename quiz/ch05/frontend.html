@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>프런트 엔드 개발 지원서</title>
+    <link rel = "stylesheet" href = "css/style.css">
+</head>
+<body>
+    <!-- 가운데 정렬 -->
+    <div id = "container">
+        <h1>프런트엔드 개발자 지원서</h1>
+        <p>HTML, CSS, 자바스크립트의 기술을 이해하고 실무 경험이 있는 분을 찾습니다.</p>
+        <hr>
+    <form action = "apply.jsp" method = "post">
+        <h4>개인 정보</h4>
+        <ul>
+            <li>
+                <label for = "name" class = "info">이름　　</label>
+                <input type = "text" id = "name" name = "name" placeholder = "공백 제외" required>
+            </li>
+            <li>
+                <label for = "phone" class = "info">연락처　</label>
+                <input type = "tel" id = "phone" name = "phone" required> 
+            </li>
+        </ul>
+        <p><b>지원 분야</b></p>
+        <ul>
+            <li>
+                <label><input type = "radio" name = "web" value="list1"> 웹 퍼블리싱</label>
+            </li>
+            <li>
+                <label><input type = "radio" name = "web" value="list2"> 웹 애플리케이션 개발</label>
+            </li>
+            <li>
+                <label><input type = "radio" name = "web" value="list3"> 개발 환경 개선</label>
+            </li>
+        </ul>
+        <p><b>지원 동기</b></p>
+        <label for = "memo"></label>
+        <textarea cols = "60" rows= "5" id = "memo" name= "memo"
+         placeholder = "문서 지원 동기를 입력해 주세요."></textarea>
+         <div>
+            <!-- <input type = "submit" value = "접수"> -->
+            <!-- <input type = "reset" value = "재작성"> -->
+            <button type = "submit">접수</button>
+            <button type = "reset">재작성</button>
+        </div>
+    </div>
+    </form>
+</body>
+</html>

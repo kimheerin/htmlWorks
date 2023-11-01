@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        textarea{
+            /* 크기 조정 불가 (고정) */
+            resize: none;
+        }
+        /* input 태그의 속성에 스타일을 줄때 [ ] 를 사용 함  */
+        input[type ="submit"]{
+            margin-top:10px;
+        }
+    </style>
+</head>
+<body>
+    <form action ="" method="post">
+        <fieldset>
+            <legend>배송 업무</legend>
+            <textarea cols = "60" rows="5" name="memo"
+                      placeholder="배송 시 요청 사항을 입력해주세요"></textarea>
+        </fieldset>
+        <input type ="submit" value="전송">
+    </from>
+    
+</body>
+</html>
