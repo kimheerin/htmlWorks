@@ -47,7 +47,7 @@ section{
     padding: 5px;
 }
 section h3{
-    background: url(/pat_dog/images/dot.png) no-repeat;
+    background: url(../images/dot.png) no-repeat;
     background-position: 5px 20px; /*left(x) top(y)*/
     padding: 16px 24px;
 }
@@ -59,6 +59,11 @@ aside{
     margin: 0 auto;
     padding: 10px;
     background: rgb(184, 221, 129);
+}
+aside img{
+    float: left;
+    margin: 10px 100px 10px 10px;
+    border-radius: 10px;
 }
 aside h3{padding-left: 30px;}
 aside ul li{

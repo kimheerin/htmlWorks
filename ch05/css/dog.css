@@ -1,4 +1,5 @@
 /* float_navber.html 연결 */
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@800&display=swap');
 *{margin: 0; padding: 0;}
 #container{
     width: 1000px;
@@ -21,6 +22,7 @@ header #logo{
     color: greenyellow;
     padding-left: 20px;
     font-style: italic;
+    font-family: Nanum Gothic;
 }
 
 header nav{
