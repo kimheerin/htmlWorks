@@ -46,6 +46,16 @@
          transform: scale(1.5);  /* xy 모두 : 1.5 확대 , 0.5 축소*/
          /* transform: scale(0.5); */
       }
+      div.e{
+         width: 150px;
+         height: 80px;
+         background-color: bisque;
+      }
+      div.e:hover{
+         /* x축 기준으로 30도 만큼 비틂 */
+         /*transform: skewX(30deg);*/
+         transform: skewY(30deg);
+      }
    </style>
 </head>  
 <body>
@@ -60,5 +70,8 @@
 
    <h2>transform : scaleY(1.5)</h2>
    <div class = "d">Hello World</div>
+
+   <h2>transform: skewY(30deg)</h2>
+   <div class = "e">Hello World</div>
 </body>
 </html>
