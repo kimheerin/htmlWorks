@@ -1,0 +1,74 @@
+@charset "utf-8";
+/* 공통 스타일 */
+*{margin: 0; padding: 0; box-sizing: border-box;}
+h1{color: rgb(123, 104, 104);}
+h2{color: rgb(91, 74, 74); font-style: italic;}
+
+/* 모바일 기준 */
+#container{width: 100%;}
+
+/* header 영역 */
+header{height: 320px;}
+header nav{height: 60px; background-color: rgb(244, 230, 212); }
+nav #main-nav{text-align: center;}
+nav #main-nav li {display: inline-block; line-height: 60px;
+   margin: 0 16px;}
+#main-nav li a{color: rgb(123, 104, 104); text-decoration: none;
+               font-size: 0.9em;}
+#main-nav li a:hover{color: #c5b1b1; text-decoration: none;}
+#main-pic img{width: 100%; height: 260px;}
+
+/* section 영역 */
+section{height: 320px; padding: 10px 5%;}
+section:nth-of-type(2n){background-color: rgb(254, 246, 235);}
+section .page-title{margin: 20px 0;}
+section p{line-height: 3;}
+section .content .photo{display: none;}
+#choice .content h2{margin-bottom: 20px;}
+#choice .content ol{padding-left: 30;}
+#choice .content ol li{line-height: 2;}
+
+footer{height: 40px; border-top: 2px solid #c5b1b1;}
+#bottom-menu{list-style: none; margin: 10px 10px 40px;}
+#bottom-menu li{display: inline-block; margin: 10px 0; padding: 0 10px;
+                  border-right: 2px solid #ccc;}
+#bottom-menu li:last-child{border: none;} /* 사이트맵 우측의 바 숨기기*/
+#bottom-menu li a{text-decoration: none; color: #444;}
+
+/* 테블릿 기준 - 780px 이상 */
+@media screen and (min-width: 780px) {
+   /* header 영역 */
+   header{height: 350px;}
+   header nav #main-nav li{margin: 0 40px;}
+   header #main-pic img{height: 290px;}
+
+   /* section 영역 */
+   section{height: 380px;}
+   #intro{float: left; width: 40%;}
+   #choice{float: right; width: 40%;}
+   #map{clear: both;}
+   #map .photo{display: block; float: left; margin-right: 40px;}
+
+   /* fotter 영역 */
+   #bottom-menu{margin: 10px 40px;}
+   #bottom-menu li{margin: 10px 0; padding: 0 10px;
+   #bottom-menu li a{text-decoration: none; color: #444;}
+}
+
+
+/* pc 기준 1200px 이상 */
+@media screen and (min-width:1200px) {
+   #container{width: 1200px; margin: 0 auto;}
+   /* header 영역 */
+   header{height: 380px;}
+   header nav #main-nav li{margin: 0 50px;}
+   header #main-pic img{height: 320px;}
+
+   /* section영역 */
+   section{height: 350px;}
+   #intro, #choice, #map{width: 100%;}
+   section .content .photo{display: block;}
+   #intro .photo, #map .photo{float:left; margin-right: 20px;}
+   #choice .photo{float:right;}
+   #choice .content ol li{line-height: 2.5;}
+}
