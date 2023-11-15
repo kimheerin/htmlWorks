@@ -45,6 +45,7 @@ section .page-title{padding: 10px}
 
 /* footer 스타일 */
 footer{height: 100px; border-top: 2px solid #aaa}
+footer div ul p{float: right; font-size: 14px;}
 #bottomMenu{margin: 10px 30px;}
 #bottomMenu ul{list-style: none;}
 #bottomMenu ul li{display: inline; padding: 0 10px;
