@@ -20,7 +20,7 @@ setInterval(myWatch, 1000);
 
 function myWatch(){
    const now = new Date();
-   let time = now.toLocaleTimeString(); //시간만 출력
+   let time = now.toLocaleTimeString('en-US'); //시간만 출력
    console.log(time);
 
    let watch = document.getElementById("demo")
