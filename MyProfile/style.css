@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@400;700&display=swap');
 
-*{margin:0; padding: 0; box-sizing: border-box;}
+*{margin:0; padding: 0; box-sizing: border-box; font-family: Gowun Batang; font-weight: bolder;}
 #container{width: 100%; margin:0 auto;}
 
 #who h1{color: #819ca7;}
@@ -45,7 +45,8 @@ section .page-title{padding: 10px}
 
 /* footer 스타일 */
 footer{height: 100px; border-top: 2px solid #aaa}
-footer div ul p{float: right; font-size: 14px;}
+footer div ul li{font-family: Gowun Batang;}
+footer div ul p{float: right; font-size: 14px; font-family: Gowun Batang;}
 #bottomMenu{margin: 10px 30px;}
 #bottomMenu ul{list-style: none;}
 #bottomMenu ul li{display: inline; padding: 0 10px;
