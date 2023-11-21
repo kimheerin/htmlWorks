@@ -9,6 +9,9 @@
 #who h1{color: #819ca7;}
 #job h1{color: #819ca7;}
 #skill h1{color: #819ca7;}
+ul li::marker{font-size: 14.2px;}
+
+
 
 /* header 스타일 */
 header{width: 100%; height: 280px;}
